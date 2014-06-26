@@ -25,4 +25,32 @@ tomatoTable <- sqlQuery (db, "SELECT * FROM tomato", stringsAsFactors=FALSE)
 head(tomatoTable)
 #unfortunately package ‘RMySQL’ is not available (for R version 3.0.1)
 
+#save and load data to .rdata
+n <- 20
+r <-1:10
+w <- data.frame(n,r)
+w
+save(n,r,w, file="data/multiple.rdata")
+rm(n,r,w)
+n
+r
+w
+load("data/multiple.rdata")
+n
+w
 
+#using R datas or from other packages
+
+require(ggplot2)
+data()
+data(BOD)
+BOD
+
+data("tips", package="reshape2")
+tips
+
+#getting data from web pages
+require(XML)
+theURL <- "http://www.w3schools.com/html/html_tables.asp"
+W3Table <- readHTMLTable(theURL,which=1, header=FALSE, stringAsFactors=FALSE)
+W3Table
