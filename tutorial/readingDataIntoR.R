@@ -3,6 +3,7 @@
 #author : Z.B.Celik
 #Date   : 06/23/2014
 #####################################
+
 #you can find csv file at http://www.jaredlander.com/data/tomato%20First.csv
 tomato <- read.table(file="data/Tomato First.csv", header = TRUE, sep = "," , stringsAsFactors = TRUE)
 head(tomato)
@@ -39,8 +40,7 @@ load("data/multiple.rdata")
 n
 w
 
-#using R datas or from other packages
-
+#using R data or from other packages
 require(ggplot2)
 data()
 data(BOD)

@@ -9,7 +9,7 @@
 1+1
 2+2
 
-#we can add new packages byr packages>install
+#we can add new packages by packages>install
 #check if packages are installed or not
 library(ggplot2)
 require(coefplot)
@@ -38,8 +38,6 @@ is.logical(x)
 2==3
 5>8
 5>=10
-
-
 
 #DATA STRUCTURES: Vector, Data Frame, List, Matrix ,Array, Factor 
 #vectors
@@ -94,6 +92,7 @@ x[c(2,6)] = NA
 #now our data have missing values
 mean(x)
 mean(x,na.rm = TRUE)
+
 #1-Data frames
 x <- c(1:10)
 y <- c(-4:5)
