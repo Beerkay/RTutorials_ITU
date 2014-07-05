@@ -53,7 +53,7 @@ head(diamonds)
 ```
 
 ```{r plot2, dev='png'}
-ggplot(data=diamonds) + aes(x=cut) + geom_histogram(aes(fill = ..count..)) + ggtitle("if you get the plots, you are ready to move forward") 
+ggplot(data=diamonds) + aes(x=cut) + geom_histogram(aes(fill = ..count..)) + ggtitle("if you get the plot, you are ready to move forward") 
 ```
 
 *  Test R Commander by typing windows() in the console, if you see a new window you have succeed installing RCommander

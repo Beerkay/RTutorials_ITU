@@ -1,6 +1,3 @@
----
-output: html_document
----
 R Programming Tutorial Notes
 =========
 
@@ -55,6 +52,7 @@ head(diamonds)
 ```{r plot2, dev='png'}
 ggplot(data=diamonds) + aes(x=cut) + geom_histogram(aes(fill = ..count..)) + ggtitle("if you get the plots, you are ready to move forward") 
 ```
+![plot of chunk](figures/Rplot.png)
 
 *  Test R Commander by typing windows() in the console, if you see a new window you have succeed installing RCommander
 
