@@ -85,9 +85,9 @@ ggplot(data=diamonds) + aes(x=cut) + geom_histogram(aes(fill = ..count..)) + ggt
 * **tutorial/latex/** includes files of understanding the latex basics using knitr 
 
 
-[R for Everyone: Advanced Analytics and Graphics]:http://www.amazon.com/Everyone-Advanced-Analytics-Graphics-Addison-Wesley/dp/0321888030
-[RStudio]:http://www.rstudio.com/
-[mySQL Workbench]:http://www.mysql.com/products/workbench/ 
-[Berkay Celik]:http://www.linkedin.com/in/berkaycelik
+[R for Everyone: Advanced Analytics and Graphics]: http://www.jaredlander.com/r-for-everyone/
+[RStudio]: http://www.rstudio.com/
+[mySQL Workbench]: http://www.mysql.com/products/workbench/ 
+[Berkay Celik]: http://www.linkedin.com/in/berkaycelik
 [R web page]: http://www.r-project.org/
 [MiKTeX]: http://miktex.org/
