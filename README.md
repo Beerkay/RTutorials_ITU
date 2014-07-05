@@ -14,7 +14,7 @@ As  written at the [R web page]:
 > vehicle of choice for research in statistical methodology, and R provides an Open Source route to participation in that activity.
 
 
-#### Introduction
+#### Introduction 
 
 Tutorials are based on the great book of [R for Everyone: Advanced Analytics and Graphics] (Addison-Wesley Data & Analytics Series) by Jared P. Lander (Dec 29, 2013)
 
