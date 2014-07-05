@@ -9,6 +9,12 @@ require (ggplot2)
 randomNormalDist <- rnorm(3000) #~N(u=0,sd=1)
 randomNormalDist
 #check if our data comes from a normal dist, normality test by shapiro-wilk
+#shapiro.test tests the Null hypothesis that "the samples come from a Normal distribution" 
+#against the alternative hypothesis "the samples do not come from a Normal distribution".
+
+#the shapiro.test tests the NULL hypothesis that the samples came from a Normal distribution.
+#This means that if your p-value <= 0.05, then you would reject the NULL hypothesis that 
+#the samples came from a Normal distribution.
 shapiro.test(randomNormalDist)
 
 randomNormalDensity <- dnorm(randomNormalDist)

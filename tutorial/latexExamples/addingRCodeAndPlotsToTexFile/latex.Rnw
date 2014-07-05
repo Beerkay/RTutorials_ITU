@@ -1,0 +1,50 @@
+\documentclass{article}
+%this is a comment
+
+\usepackage{graphicx}
+%\DeclareGraphicsExtensions{.png,.jpg}
+
+\newcommand{\dataframe}{\texttt{data.frame}}
+
+\author{Z. Berkay Celik}
+\title{ Introduction to Latex using RStudio and Knitr}
+\date{July 4th 2014}
+
+\begin{document}
+\maketitle
+\tableofcontents
+
+\section{Section 1}
+\label{sec:section1}
+This is the first section for introduction, we talk about \dataframe{}s.
+
+This tutorial is a first step for \textit{R}.
+
+\section{Section 2}
+\label{section2}
+In Section~\ref{sec:section1} we have covered some basics, now key point is how to include r codes as well as graphics.
+
+\subsection{R codes}
+In this subsection, we will look Diamonds data.All R code goes in between.
+<<diamonds-model>>=
+#Now, we can write our R code.
+require (ggplot2)
+data(diamonds)
+head(diamonds)
+
+
+mod1 <- lm(price ~ carat, data = diamonds)
+summary(mod1)
+
+@
+Scatter plot of carat vs.price is plotted in Figure \ref{fig:diamonds-plot} by using geomsmooth
+<<diamonds-plot,fig.cap="Scatterplot of carat vs. price",out.width='.95\\linewidth'>>=
+ggplot(data=diamonds, aes(x=carat, y=price, color=color))+ geom_point() + geom_smooth(method="lm")
+@
+
+
+<<diamonds-plot2,fig.cap="Scatterplot of diamonds",out.width='.95\\linewidth'>>=
+ggplot(data=diamonds, aes(x=carat,y=price, color=color)) + geom_point() + xlab("carats")
+@
+
+\end{document}
