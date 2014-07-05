@@ -16,7 +16,7 @@ As  written at the [R web page]:
 
 #### Introduction 
 
-Tutorials are based on the great book of [R for Everyone: Advanced Analytics and Graphics] (Addison-Wesley Data & Analytics Series) by Jared P. Lander (Dec 29, 2013)
+Tutorials are based on the great book of [R for Everyone: Advanced Analytics and Graphics] Addison-Wesley Data & Analytics Series by Jared P. Lander (Dec 29, 2013)
 
 [![Alt text](http://www-fp.pearsonhighered.com/assets/hip/images/coverimage/0321888030.jpg)](http://www.jaredlander.com/r-for-everyone/)
 
