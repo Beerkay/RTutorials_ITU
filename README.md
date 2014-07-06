@@ -81,7 +81,7 @@ ggplot(data=diamonds) + aes(x=cut) + geom_histogram(aes(fill = ..count..)) + ggt
 #### Instructions in following folders
 
 * **tutorial/data/** includes the data used in tutorials
-* **tutorial/notes/** includes tips for setting up envoirenments (e.g., Connect R to MySQL with RODBC using DSN)
+* **tutorial/notes/** includes tips for setting up environments (e.g., Connect R to MySQL with RODBC using DSN)
 * **tutorial/latex/** includes files of understanding the latex basics using knitr 
 
 
